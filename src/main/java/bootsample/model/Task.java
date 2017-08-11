@@ -23,6 +23,7 @@ public class Task implements Serializable{
 	private Date date_create;
 	private boolean finished;
 	
+	//Default Constructor
 	public Task() {
 		
 	}
