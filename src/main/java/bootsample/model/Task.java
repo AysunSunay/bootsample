@@ -36,6 +36,14 @@ public class Task implements Serializable{
 		this.date_create = date_create;
 		this.finished = finished;
 	}
+	public int getId() {
+		return id;
+	}
+	
+	public void setId(int id) {
+		this.id = id;	
+	}
+	
 	public String getName() {
 		return name;
 	}
